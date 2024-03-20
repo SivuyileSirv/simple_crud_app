@@ -8,7 +8,6 @@
 </head>
 <body>
     <h1 id="home-heading-text">CRUD APPLICATION</h1>
-    <p class="developer">Developed by Sivuyile Parkies</p>
     <form action="upload.php" method="POST" enctype="multipart/form-data" id="uploadForm">
         <label for="file" class="file-upload-btn">Choose a file</label>
         <input type="file" id="file" name="file" class="file-upload-input" onchange="updateFileName(this)">
